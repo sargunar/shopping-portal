@@ -24,7 +24,7 @@ pipeline {
 
     stage('archive') {
       steps {
-        archiveArtifacts '**/target/*.zip'
+        archiveArtifacts '**/distribution/*.zip'
       }
     }
 
