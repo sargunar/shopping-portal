@@ -22,12 +22,6 @@ pipeline {
       }
     }
 
-    stage('Archive') {
-      steps {
-        archiveArtifacts '**/target/*.zip'
-      }
-    }
-
   }
   post {
     always {
